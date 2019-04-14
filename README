@@ -1,0 +1,4 @@
+The project aims to calculate the self-resonant frequency (SRF) of irregular solenoids.
+
+The main script is the file "SRF_calculation.m",
+"calculateB" is a function for calculating magnetic field with Biot-Savart Law.
