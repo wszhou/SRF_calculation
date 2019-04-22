@@ -1,6 +1,13 @@
 The project aims to calculate the self-resonant frequency (SRF) of irregular solenoids.
 
-The details of the algorithm can be found in the paper W. Zhou, and S. Y. Huang, "An Accurate Model for Fast Calculating the Resonant Frequency of an Irregular Solenoid", IEEE Transactions on Microwave Theory and Techniques.
+The details of the algorithm can be found in the paper W. Zhou, and S. Y. Huang, 
+"An Accurate Model for Fast Calculating the Resonant Frequency of an Irregular Solenoid", 
+IEEE Transactions on Microwave Theory and Techniques.
 
-The main script is the file "SRF_calculation.m",
-"calculateB" is a function for calculating magnetic field with Biot-Savart Law.
+The functions for calculating the SRF of cylindrical solenoids with uniform pitches, 
+cylindrical solenoids with varied pitches, and spherical solenoids are in the files
+"func_SRF_calculation_cylindrical.m", "func_SRF_calculation_cylindrical_varied_pitch.m",
+and "func_SRF_calculation_spherical.m", respectively.
+
+"calculateB" is a function for calculating magnetic field with Biot-Savart Law. It is called
+by all the other three functions.
