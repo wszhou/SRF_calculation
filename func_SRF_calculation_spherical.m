@@ -1,10 +1,11 @@
 %% Function for calculating the self-resonant frequency (SRF) of spherical solenoid coils
 
 %  Created by Wenshen Zhou on 22 Apr 2019
+%  Modified on 9 May 2019: improving the calculation of internal inductance
 
 %  Introduction:
 %  The code can be used for calculating the SRF of spherical solenoids. 
-%  Inductance (L)%  and capacitance (C) are calculated individually, then 
+%  Inductance (L) and capacitance (C) are calculated individually, then 
 %  the SRF is calculated as 1/(2*pi*sqrt(L*C)). The methods for calculating
 %  L and C are illustrated in the paper: W. Zhou, and S. Y. Huang, "An 
 %  accurate model for fast calculating the resonant frequency of an irregular 
