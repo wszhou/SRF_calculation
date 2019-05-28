@@ -180,7 +180,7 @@ for k = 1:N
     end
     
     % Calculate the inductance of each loop
-    Ic_area(k) = Ic((2*k-1)*s/(2*N)+1);             % current at the middle segment of each loop
+    Ic_area(k) = Ic(round((2*k-1)*s/(2*N))+1);             % current at the middle segment of each loop
     L_separate(k) = phi_area(k)/Ic_area(k);         % inductance of each loop
     L_total = L_total+L_separate(k)+L_int(k);       % total inductance of the kth loop
     phi_total = phi_total + phi_area(k);
